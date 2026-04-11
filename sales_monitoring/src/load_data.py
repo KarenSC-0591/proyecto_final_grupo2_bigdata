@@ -20,3 +20,6 @@ def load_sales_data(file_path):
     print(data.head())
 
     return data
+
+if __name__ == "__main__":
+    df = load_sales_data("sales_monitoring/data/proyecto2_ventas.csv")
