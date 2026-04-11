@@ -22,5 +22,5 @@ def plot_sales_by_product():
     plt.show()
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     plot_sales_by_product()
