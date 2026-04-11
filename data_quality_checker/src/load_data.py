@@ -20,5 +20,5 @@ def load_employee_data(file_path):
 
 if __name__ == "__main__":
 
-    df = load_employee_data("data/proyecto3_empleados.csv")
+    df = load_employee_data("data_quality_checker/data/proyecto3_empleados.csv")
  
