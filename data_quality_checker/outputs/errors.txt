@@ -1,0 +1,20 @@
+REPORTE DE CALIDAD DE DATOS
+==============================
+
+Valores nulos por columna:
+Name        0
+Salary      0
+Age         0
+Province    0
+Job         0
+dtype: int64
+
+Tipos de datos:
+Name            str
+Salary      float64
+Age           int64
+Province        str
+Job             str
+dtype: object
+
+Total de registros duplicados: 0
