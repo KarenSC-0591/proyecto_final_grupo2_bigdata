@@ -1,34 +1,35 @@
-Data Quality & Sales Analyzer
+📊 Data Quality & Sales Analyzer
+👥 Integrantes y Roles
+🧑‍💻 Karen Sánchez — Git Manager & Integración del Proyecto
+🧑‍💻 Raúl — Carga de Datos (Data Ingestion)
+📊 Byron — Análisis de Datos (Data Analysis)
+📈 Joel — Visualización de Datos (Data Visualization)
+🧑‍💻 Rommer — Validación y Reporte (Data Quality)
 
-Integrantes y Roles
-Karen Sánchez — Git Manager & Integración del Proyecto
-Raúl — Carga de Datos (Data Ingestion)
-Byron — Análisis de Datos (Data Analysis)
-Joel — Visualización de Datos (Data Visualization)
-Rommer — Validación y Reporte (Data Quality)
-
-Descripción
+🧾 Descripción
 
 Data Quality & Sales Analyzer es una solución desarrollada en Python que permite analizar y validar datos de manera automatizada.
 
 La plataforma integra dos módulos principales:
 
-Sales Monitoring → Permite analizar ventas, identificar productos con mayor rendimiento y calcular métricas clave.
-Data Quality Checker → Permite validar la calidad de los datos detectando valores nulos, duplicados y tipos de datos incorrectos.
+📊 Sales Monitoring:
+Permite analizar ventas, identificar productos con mayor rendimiento y calcular métricas clave.
+🚨 Data Quality Checker:
+Permite validar la calidad de los datos detectando valores nulos, duplicados y tipos de datos incorrectos.
 
 El sistema facilita la toma de decisiones basada en datos confiables.
 
-Características
-Carga de datos desde archivos CSV usando pandas
-Análisis de ventas (totales, agrupaciones y promedios)
-Visualización de datos con matplotlib
-Validación de calidad de datos:
+⚙️ Características
+📥 Carga de datos desde archivos CSV usando pandas
+📊 Análisis de ventas (totales, agrupaciones y promedios)
+📈 Visualización de datos con matplotlib
+🚨 Validación de calidad de datos:
 Valores nulos
 Duplicados
 Tipos de datos
-Generación de reportes automáticos
+📝 Generación de reportes automáticos
 
-Arquitectura
+🏗️ Arquitectura
 
 El proyecto está dividido en dos módulos independientes dentro del mismo repositorio:
 
@@ -40,8 +41,7 @@ Cada módulo sigue una arquitectura modular basada en:
 Carga de datos
 Procesamiento
 Salida (outputs)
-
-Estructura del Proyecto
+📂 Estructura del Proyecto
 data_quality_checker/
 │
 ├── data/
@@ -57,6 +57,7 @@ data_quality_checker/
 │   ├── main.py
 │   └── rules.py
 
+
 sales_monitoring/
 │
 ├── data/
@@ -69,6 +70,7 @@ sales_monitoring/
 │   ├── analyzer.py
 │   ├── visualization.py
 │   └── main.py
+
 
 README.md  
 requirements.txt
